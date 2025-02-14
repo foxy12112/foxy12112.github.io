@@ -1,14 +1,16 @@
 .square {
+	display: inline-block;
 	width: 100px;
 	height: 100px;
 	background-color: blue;
-	display: flex;
 	align-items: center;
 	justify-content: center;
 	color: white;
 	font-size: 10px;
+	line-height: 100px;
 	text-decoration: none;
 	cursor: pointer;
+	border-radius: 5px;
 }
 
 .square:hover {
