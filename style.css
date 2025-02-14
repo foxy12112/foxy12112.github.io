@@ -1,3 +1,20 @@
+.square {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 10px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.square:hover {
+	background-color: darkblue;
+}
+
 body {
 	margin: 0;
 	background: pink;
