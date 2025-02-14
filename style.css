@@ -2,6 +2,7 @@
 	display: inline-block;
 	width: 100px;
 	height: 100px;
+	background-image: ;
 	background-color: blue;
 	align-items: center;
 	justify-content: center;
@@ -20,5 +21,23 @@
 body {
 	margin: 0;
 	background: pink;
+	text-align: center;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+h1	{
+	font-size: 3rem;
+	color: white;
 	text-align: center;
 }
