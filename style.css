@@ -2,7 +2,6 @@
 	display: inline-block;
 	width: 100px;
 	height: 100px;
-	background-image: ;
 	background-color: blue;
 	align-items: center;
 	justify-content: center;
@@ -13,6 +12,7 @@
 	cursor: pointer;
 	border-radius: 5px;
 }
+
 
 .darkmode {
 	position: fixed;
@@ -36,6 +36,21 @@ body {
 	margin: 0;
 	background: white;
 	text-align: center;
+}
+
+.github {
+	background-color: rgb(255, 0, 0);
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	margin: auto;
+	display: inline-block;
+	border-radius: 50px;
+}
+.github:hover {
+	width: 160;
+	height: 50;
+	
 }
 
 .container {
